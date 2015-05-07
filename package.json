@@ -1,5 +1,5 @@
 {
-  "name": "storefront-aurelia-ts",
+  "name": "skeleton-navigation-ts",
   "version": "0.1.0",
   "description": "Starting point for building an app with Aurelia and TypeScript.",
   "keywords": [
@@ -7,16 +7,16 @@
     "typescript",
     "skeleton"
   ],
-  "homepage": "http://github.com/mschoneman",
+  "homepage": "http://github.com/mschoneman/skeleton-navigation-ts",
   "bugs": {
-    "url": "https://github.com/aurelia/skeleton-navigation/issues"
+    "url": "https://github.com/mschoneman/skeleton-navigation-ts/issues"
   },
   "license": "MIT",
   "author": "Michael O. Schoneman <mschoneman@gmail.com>",
   "main": "dist/commonjs/index.js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/mschoneman/starter-aurelia-ts"
+    "url": "http://github.com/mschoneman/skeleton-navigation-ts"
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.3",
