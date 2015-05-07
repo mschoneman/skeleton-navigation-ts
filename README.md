@@ -1,4 +1,4 @@
-# starter-aurelia-ts
+# skeleton-navigation-ts
 
 This skeleton is *not* part of the [Aurelia](http://www.aurelia.io/) platform. It sets up a standard navigation-style app using gulp to build your TS code with the TypeScript compiler. Karma/Protractor/Jasmine testing is *not (yet)* configured.
 
