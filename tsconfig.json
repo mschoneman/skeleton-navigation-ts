@@ -1,0 +1,52 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": false,
+        "noLib": true,
+        "outDir": "./dist/",
+        "emitDecoratorMetadata": true
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!./node_modules/**/*.ts"
+    ],
+    "files": [
+        "./src/animation-main.ts",
+        "./src/app.ts",
+        "./src/child-router.ts",
+        "./src/flickr.ts",
+        "./src/main.ts",
+        "./src/nav-bar.ts",
+        "./src/welcome.ts",
+        "./type-definitions/aurelia-animator-css.d.ts",
+        "./type-definitions/aurelia-app-contacts.d.ts",
+        "./type-definitions/aurelia-binding.d.ts",
+        "./type-definitions/aurelia-bootstrapper.d.ts",
+        "./type-definitions/aurelia-dependency-injection.d.ts",
+        "./type-definitions/aurelia-event-aggregator.d.ts",
+        "./type-definitions/aurelia-framework.d.ts",
+        "./type-definitions/aurelia-history-browser.d.ts",
+        "./type-definitions/aurelia-history.d.ts",
+        "./type-definitions/aurelia-http-client.d.ts",
+        "./type-definitions/aurelia-loader-default.d.ts",
+        "./type-definitions/aurelia-loader.d.ts",
+        "./type-definitions/aurelia-logging-console.d.ts",
+        "./type-definitions/aurelia-logging.d.ts",
+        "./type-definitions/aurelia-metadata.d.ts",
+        "./type-definitions/aurelia-path.d.ts",
+        "./type-definitions/aurelia-route-recognizer.d.ts",
+        "./type-definitions/aurelia-router.d.ts",
+        "./type-definitions/aurelia-skeleton-navigation.d.ts",
+        "./type-definitions/aurelia-skeleton-plugin.d.ts",
+        "./type-definitions/aurelia-task-queue.d.ts",
+        "./type-definitions/aurelia-templating-binding.d.ts",
+        "./type-definitions/aurelia-templating-resources.d.ts",
+        "./type-definitions/aurelia-templating-router.d.ts",
+        "./type-definitions/aurelia-templating.d.ts",
+        "./type-definitions/es6.d.ts"
+    ]
+}
