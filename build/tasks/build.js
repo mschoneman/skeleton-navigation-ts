@@ -7,6 +7,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var paths = require('../paths');
 var compilerOptions = require('../typescript-options');
 var assign = Object.assign || require('object.assign');
+var notify = require("gulp-notify");
 
 // transpiles changed es6 files to SystemJS format
 // the plumber() call prevents 'pipe breaking' caused
@@ -14,10 +15,11 @@ var assign = Object.assign || require('object.assign');
 // https://www.npmjs.com/package/gulp-plumber
 gulp.task('build-system', function () {
   return gulp.src([paths.source, paths.definitions])
-    .pipe(plumber())
+    .pipe(plumber({errorHandler: notify.onError("Error: <%= error.message %>")}))
+//    .pipe(changed(paths.output, {extension: '.ts'}))
     .pipe(sourcemaps.init({loadMaps: true}))
     .pipe(ts(compilerOptions)).js
-    .pipe(sourcemaps.write({includeContent: false, sourceRoot: paths.sourceMapRelativePath }))
+    .pipe(sourcemaps.write({includeContent: true}))
     .pipe(gulp.dest(paths.output));
 });
 

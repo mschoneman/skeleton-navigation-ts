@@ -8,5 +8,6 @@ module.exports = {
     "declarationFiles": false,
     "noExternalResolve": true,
     "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "typescript": require('typescript')
 }
